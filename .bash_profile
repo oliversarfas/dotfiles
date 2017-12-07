@@ -1,1 +1,1 @@
-source aliases
+source ~/dot-files/aliases
