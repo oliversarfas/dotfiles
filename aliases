@@ -19,3 +19,9 @@ alias xon='sudo phpenmod -s cli xdebug'
 function artisan() {
     php artisan "$@"
 }
+
+function deploy() {
+  git add -A;
+  git commit -am "$@";
+  git push;
+}
