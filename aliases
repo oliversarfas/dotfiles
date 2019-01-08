@@ -16,6 +16,8 @@ alias pf='phpunit --filter'
 alias xoff='sudo phpdismod -s cli xdebug'
 alias xon='sudo phpenmod -s cli xdebug'
 
+alias fuck='git reset --hard; git clean -fd'
+
 function artisan() {
     php artisan "$@"
 }
