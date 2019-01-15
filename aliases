@@ -12,7 +12,7 @@ alias phpspec='vendor/bin/phpspec'
 alias phpunit='vendor/bin/phpunit'
 alias paratest='vendor/bin/paratest'
 alias p='phpunit'
-alias pf='phpunit --filter'
+alias fp='phpunit --filter'
 alias fastp='paratest'
 
 alias xoff='sudo phpdismod -s cli xdebug'
