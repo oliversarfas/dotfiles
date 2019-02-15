@@ -1,0 +1,16 @@
+{
+  "name": "oliversarfas/dotfiles",
+  "description": "My personal aliases for all bash based interactions",
+  "version": "1.0",
+  "keywords": [
+    "bash", "aliases",
+    "dotfiles"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Oliver Sarfas",
+      "email": "contact@oliversarfas.online"
+    }
+  ]
+}
