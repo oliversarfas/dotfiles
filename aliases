@@ -23,6 +23,12 @@ function artisan() {
     php artisan "$@"
 }
 
+function new-branch() {
+    git branch "$@"
+    git checkout "$@"
+    git push -u origin "$@"
+}
+
 function deploy() {
   git add -A;
   git commit -am "$@";
