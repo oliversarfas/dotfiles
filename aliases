@@ -16,6 +16,8 @@ alias p='phpunit'
 alias pf='phpunit --filter'
 alias fp='paratest'
 
+alias hosts='nano /c/windows/system32/drivers/etc/hosts'
+
 alias xoff='sudo phpdismod -s cli xdebug'
 alias xon='sudo phpenmod -s cli xdebug'
 
