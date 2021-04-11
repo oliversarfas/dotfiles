@@ -5,6 +5,7 @@ alias h='cd ~'
 alias c='clear'
 alias art='php artisan'
 alias a='art'
+alias sail='./vendor/bin/sail'
 
 alias setupyarn='git reset --hard; git clean -fd; COMPOSER_MEMORY_LIMIT=-1 composer install; yarn install; c; yarn watch'
 alias setupnpm='git reset --hard; git clean -fd; COMPOSER_MEMORY_LIMIT=-1 composer install; npm install; c; npm  watch;'
