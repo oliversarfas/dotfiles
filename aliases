@@ -41,7 +41,14 @@ function delete-branch() {
   git push origin --delete "$@"
 }
 
+function reset-me() {
+  git reset --hard;
+  git clean -fd;
+  clear;
+}
+
 function deploy() {
+  git pull
   git add -A;
   git commit -am "$@";
   git push;
