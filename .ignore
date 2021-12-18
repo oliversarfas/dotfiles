@@ -1,0 +1,7 @@
+.DS_Store
+.vscode
+.vagrant
+.idea
+Thumbs.db
+vendor
+node_modules
