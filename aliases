@@ -1,19 +1,24 @@
+# General navigation
 alias ..="cd .."
 alias ...="cd ../.."
-
 alias h='cd ~'
 alias c='clear'
+
+# Laravel
 alias art='php artisan'
 alias a='art'
 alias sail='./vendor/bin/sail'
 
+# Project Setup Laravel
 alias setupyarn='git reset --hard; git clean -fd; COMPOSER_MEMORY_LIMIT=-1 composer install; yarn install; c; yarn watch'
 alias setupnpm='git reset --hard; git clean -fd; COMPOSER_MEMORY_LIMIT=-1 composer install; npm install; c; npm  watch;'
 
+# NPM + Yarn
 alias n='npm install'
 alias watch='npm run watch'
 alias y='yarn install'
 
+# PHP Testing
 alias phpspec='vendor/bin/phpspec'
 alias phpunit='vendor/bin/phpunit'
 alias paratest='vendor/bin/paratest'
@@ -21,10 +26,15 @@ alias p='phpunit'
 alias pf='phpunit --filter'
 alias fp='paratest'
 
+# Local Dev setup
 alias hosts='sudo nano /etc/hosts'
 
+# XDebug
 alias xoff='sudo phpdismod -s cli xdebug'
 alias xon='sudo phpenmod -s cli xdebug'
+
+# Git
+alias gs='git status'
 
 function artisan() {
     php artisan "$@"
