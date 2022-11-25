@@ -7,10 +7,10 @@ alias c='clear'
 # Laravel
 alias art='php artisan'
 alias a='art'
-alias sail='./vendor/bin/sail'
 
 # Sail
 alias sail='[ -f sail ] && bash sail || bash vendor/bin/sail'
+alias s='sail'
 
 # Project Setup Laravel
 alias setupyarn='git reset --hard; git clean -fd; COMPOSER_MEMORY_LIMIT=-1 composer install; yarn install; c; yarn watch'
@@ -31,6 +31,8 @@ alias fp='paratest'
 
 # Local Dev setup
 alias hosts='sudo nano /etc/hosts'
+alias valet-stop='valet stop; brew services stop --all'
+alias valet-start='valet start; brew services start --all'
 
 # XDebug
 alias xoff='sudo phpdismod -s cli xdebug'
