@@ -31,8 +31,6 @@ alias fp='paratest'
 
 # Local Dev setup
 alias hosts='sudo nano /etc/hosts'
-alias valet-stop='valet stop; brew services stop --all'
-alias valet-start='valet start; brew services start --all'
 
 # XDebug
 alias xoff='sudo phpdismod -s cli xdebug'
