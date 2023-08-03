@@ -54,7 +54,7 @@ function delete-branch() {
   git push origin --delete "$@"
 }
 
-function reset-me() {
+function nah() {
   git reset --hard;
   git clean -fd;
   clear;
