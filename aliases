@@ -16,11 +16,6 @@ alias s='sail'
 alias setupyarn='git reset --hard; git clean -fd; COMPOSER_MEMORY_LIMIT=-1 composer install; yarn install; c; yarn watch'
 alias setupnpm='git reset --hard; git clean -fd; COMPOSER_MEMORY_LIMIT=-1 composer install; npm install; c; npm  watch;'
 
-# NPM + Yarn
-alias n='npm install'
-alias watch='npm run watch'
-alias y='yarn install'
-
 # PHP Testing
 alias phpspec='vendor/bin/phpspec'
 alias phpunit='vendor/bin/phpunit'
