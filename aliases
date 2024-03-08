@@ -61,3 +61,15 @@ function deploy() {
   git commit -am "$@";
   git push;
 }
+
+function wip () {
+  git add -A;
+  git commit -am "chore: wip" -n
+  git push;
+}
+
+function pint() {
+  ./vendor/bin/pint;
+  git add -A;
+  git commit -am "chore: laravel pint run" -n;
+}
