@@ -23,6 +23,7 @@ alias paratest='vendor/bin/paratest'
 alias p='phpunit'
 alias pf='phpunit --filter'
 alias fp='paratest'
+alias pest='vendor/bin/pest'
 
 # Local Dev setup
 alias hosts='sudo nano /etc/hosts'
