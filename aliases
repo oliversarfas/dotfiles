@@ -4,6 +4,9 @@ alias ...="cd ../.."
 alias h='cd ~'
 alias c='clear'
 
+# Herd
+alias ha='herd php artisan'
+
 # Laravel
 alias art='php artisan'
 alias a='art'
