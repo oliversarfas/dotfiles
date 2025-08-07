@@ -39,9 +39,8 @@ alias xon='sudo phpenmod -s cli xdebug'
 # Git
 alias gs='git status'
 
-function artisan() {
-    php artisan "$@"
-}
+# Client Specific
+alias nexus="./vendor/bin/rector && ./vendor/bin/duster fix && ./vendor/bin/duster lint && ./vendor/bin/phpstan && ./vendor/bin/pest --exclude-testsuite=Integration"
 
 function new-branch() {
     git branch "$@"
