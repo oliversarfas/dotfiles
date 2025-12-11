@@ -4,6 +4,9 @@ alias ...="cd ../.."
 alias h='cd ~'
 alias c='clear'
 
+# Claude
+alias cskip='claude --dangerously-skip-permissions'
+
 # Herd
 alias ha='herd php artisan'
 
