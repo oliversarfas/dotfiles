@@ -1,5 +1,7 @@
 .claude
 .conductor
 .idea
+.playwright-mcp
 /vendor
 notes.txt
+docs
